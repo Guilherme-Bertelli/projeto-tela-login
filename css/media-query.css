@@ -11,7 +11,7 @@
     /* Cabeçalho principal (header) */
     header {
         width: 50vw;height: 340px;
-        background: url("../imagens/img-login-g.jpeg") no-repeat -20px/cover;
+        background: url("../imagens/img-login-g.jpeg") no-repeat -0px/cover;
         border-radius: 0;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
