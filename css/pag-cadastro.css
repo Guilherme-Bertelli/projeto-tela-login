@@ -24,6 +24,7 @@ button#cadastrar {
     font-size: 1.1em;
     border: 0;
     border-radius: 10px;
+    margin-top: 15px;
 }
 
 button#cadastrar:hover {
@@ -32,10 +33,26 @@ button#cadastrar:hover {
     transition: .3s;
 }
 
-div.box-caixa {
-    margin-bottom: 6px;
+a.voltar {
+    display: inline-block;
+    width: 245px;
+    text-align: right;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #2386AD;
+    font-size: 1.1em;
 }
 
-button#cadastrar {
-    margin-top: 15px;
+a.voltar:hover {
+    color: #1198cd;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 1.3em;
+    text-shadow: 3px 3px 7px #1198cd5f;
+    transition: font-size .2s, text-shadow .2s, text-decoration .2s;
+}
+
+a.voltar:active {
+    color: #1198cd;
+    text-decoration: underline;
 }

@@ -28,6 +28,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    transition: .5s;
 }
 
 /* Header(cabeçalho principal) */
@@ -43,6 +45,9 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: end;
+
+    transition: .1s;
+    transition-timing-function: ease;
 }
 
 /* Marca */
@@ -59,19 +64,20 @@ hr {
     border-bottom-width: 0;
     border-color: #00a0e04f;
     box-shadow: 1px 1px 5px 0px #00a0e097;
-    margin: 3px 0;
 }
 
 hr.linha1 {
-    margin-top: -3px;
     width: 170px;
 }
 
 hr.linha2 {
+    margin-top: 3px;
     width: 175px;
 }
 
 hr.linha3 {
+    margin-top: 3px;
+    margin-bottom: 5px;
     width: 180px;
 }
 
@@ -92,6 +98,13 @@ main {
     background-image: linear-gradient(to bottom, #2386adb9, #b8b8b853);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+
+    transition: .1s;
+    transition-timing-function: ease;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main h1 {
@@ -141,6 +154,7 @@ div.box-caixa, div.box-botao {
 /* Box que cobre o botão (esqueci senha(button)) */
 div.box-caixa {
     padding: 0 0 3px 3px;
+    margin-bottom: 6px;
 
     justify-content: start;
 }
