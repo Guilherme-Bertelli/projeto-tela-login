@@ -1,0 +1,237 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Italianno&display=swap');
+
+
+/* MOBILE FIRST */
+
+/* Global */
+* {
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variáveis */
+:root {
+    --marca: "Italianno", cursive;
+    --texto: "Italiana", sans-serif;
+}
+
+body {
+    width: 100vw;height: 100vh;
+    background-color: #f1f1f1;
+    padding: 50px 0;
+    font-family: var(--texto);
+    font-size: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header(cabeçalho principal) */
+header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: url("../imagens/img-login-p.jpeg") no-repeat 0px/cover;
+    width: 300px;height: 350px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+/* Marca */
+header h1 {
+    font-family: var(--marca);
+    color: #31667A;
+    font-weight: normal;
+    text-shadow: 1px 1px 5px #31667a94;
+    font-size: 2.5em;
+}
+
+/* As três linha de baixo da marca */
+hr {
+    border-bottom-width: 0;
+    border-color: #00a0e04f;
+    box-shadow: 1px 1px 5px 0px #00a0e097;
+    margin: 3px 0;
+}
+
+hr.linha1 {
+    margin-top: -3px;
+    width: 170px;
+}
+
+hr.linha2 {
+    width: 175px;
+}
+
+hr.linha3 {
+    width: 180px;
+}
+
+/* Texto da marca */
+header p {
+    text-align: justify;
+    color: #31667A;
+    width: 182px;
+    font-weight: normal;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 5px #31667a94;
+}
+
+/* Main(conteúdo princípal */
+main {
+    width: 300px;height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to bottom, #2386adb9, #b8b8b853);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+main h1 {
+    text-align: center;
+    margin: 20px 0 15px 0;
+    text-shadow: 3px 5px 5px rgba(100, 100, 100, 0.354);
+}
+
+/* Formulário(forms) */
+form {
+    width: 100%;height: 201px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Todos os icones */
+form img {
+    height: 26px;width: 26px;
+}
+
+/* icone Campo(input) */
+label.imagem {
+    padding-right: 5px;
+}
+
+/* icone Botão(button) */
+label.imagem-botao {
+    padding-left: 4px;
+}
+
+
+/* Box que cobre o input */
+div.box-caixa, div.box-botao {
+    width: 245px;height: 48px;
+    padding: 0 0 2px 11px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.142);
+
+    display: flex;
+    align-items: end;
+}
+
+/* Box que cobre o botão (esqueci senha(button)) */
+div.box-caixa {
+    padding: 0 0 3px 3px;
+
+    justify-content: start;
+}
+
+/* botao (esqueci senha(button)) */
+div.box-botao button {
+    width: 200px;height: 35px;
+    padding-left: 5px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #2386ad80;
+    font-family: var(--texto);
+    font-size: 1.1em;
+}
+
+div.box-botao button:hover {
+    background-color: #2386ad9e;
+    transition: .3s;
+}
+
+/* input */
+div.box-caixa input {
+    width: 200px;height: 35px;
+    padding-left: 5px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #2386ad80;
+    font-family: var(--texto);
+    font-size: 1.1em;
+}
+
+div.box-caixa input:hover {
+    background-color: #2386ad9e;
+    transition: .3s;
+}
+
+div.box-caixa input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+/* Botão ENTRAR */
+button#entrar {
+    width: 245px;height: 30px;
+    background-color: #2386ad33;
+    box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.142);
+    font-family: var(--texto);
+    font-size: 1.1em;
+    border: 0;
+    border-radius: 10px;
+}
+
+button#entrar:hover {
+    background-color: #2386ad54;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.26);
+    transition: .3s;
+}
+
+/* Seção de cadastro */
+section#cadastro {
+    width: 100%;
+    text-align: center;
+    padding-top: 18px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#cadastro h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section#cadastro a {
+    font-size: 1.3em;
+    color: #2386AD;
+    text-decoration: none;
+}
+
+section#cadastro a:hover {
+    color: #1198cd;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 1.4em;
+    text-shadow: 3px 3px 7px #1198cd5f;
+    transition: font-size .2s, text-shadow .2s, text-decoration .2s;
+}
+
+section#cadastro a:active {
+    color: #1198cd;
+    text-decoration: underline;
+}
