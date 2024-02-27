@@ -36,7 +36,7 @@ body {
 header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background: url("../imagens/img-login-p.jpeg") no-repeat 0px/cover;
-    width: 300px;height: 180px;
+    width: 280px;height: 180px;
     padding-left: 10px;
     padding-bottom: 30px;
     border-top-left-radius: 15px;
@@ -93,7 +93,7 @@ header p {
 
 /* Main(conteúdo princípal */
 main {
-    width: 300px;height: 400px;
+    width: 280px;height: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: linear-gradient(to bottom, #2386adb9, #b8b8b853);
     border-bottom-left-radius: 15px;
