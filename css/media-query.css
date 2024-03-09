@@ -4,20 +4,17 @@
 @media screen and (min-width: 600px) and (max-width: 768px) {
     body {
         flex-direction: row;
-        padding-left: 30px;
-        padding-right: 30px;
     }
     
     /* Cabeçalho principal (header) */
     header {
-        width: 50vw;height: 340px;
+        width: 50vw;height: 70vh;
         background: url("../imagens/img-login-g.jpeg") no-repeat -0px/cover;
         border-radius: 0;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
-        padding-top: 85px;
 
-        justify-content: start;
+        justify-content: center;
         align-items: start;
     }
 
@@ -42,7 +39,7 @@
     }
 
     main {
-        width: 45vw;height: 340px;
+        width: 45vw;height: 70vh;
         border-radius: 0;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
@@ -52,6 +49,14 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    main h1 {
+        margin-top: 10px;
+    }
+
+    section#cadastro {
+        padding-top: 3vh;
     }
 }
 
